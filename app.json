@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "dictionary",
-    "slug": "dictionary",
+    "name": "open-dictionary",
+    "slug": "open-dictionary",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "open-dictionary",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
