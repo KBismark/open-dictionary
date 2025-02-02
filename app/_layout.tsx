@@ -6,8 +6,8 @@ import { useEffect } from 'react';
 import 'react-native-reanimated';
 
 import { View } from 'react-native';
-import { ThemeProvider, useTheme } from '@/theme';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { useTheme } from '../utils/theme';
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -57,9 +57,9 @@ function RootLayoutNav() {
 
 
 const App = ()=>{
-  const {colors: {white}} = useTheme()
+  const {colors} = useTheme()
   return (
-    <View style={{backgroundColor: white, flex: 1}}>
+    <View style={{backgroundColor: colors.background, flex: 1}}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="[word]" options={{ headerShown: false, animation: 'fade' }} />
