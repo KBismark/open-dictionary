@@ -47,8 +47,8 @@ You are free to use this project for personal and commercial purposes.
 Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change.    
 
 
-## Acknowledgements
-- [Free Dictionary API](https://dictionaryapi.dev/)    
+## Includes
+- [Free Dictionary API](https://dictionaryapi.dev/)  for providing the dictionary API   
 
 
 
