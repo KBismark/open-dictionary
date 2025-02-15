@@ -1,6 +1,7 @@
 import React from "react";
 import { TextInput, View, StyleSheet } from "react-native";
 import { useTheme } from "../utils/theme";
+import { isAndroid } from "@/constants";
 
 export const SearchInput = ({
   value,
@@ -39,5 +40,6 @@ const styles = StyleSheet.create({
   input: {
     fontSize: 16,
     fontFamily: "System",
+    height: 40,
   },
 });
