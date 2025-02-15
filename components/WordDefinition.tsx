@@ -72,7 +72,7 @@ export const WordDefinition = ({ entry }: { entry: DictionaryEntry }) => {
           ))}
 
           {
-            (meaning.synonyms && meaning.synonyms.length) &&
+            (meaning.synonyms && meaning.synonyms.length > 0) &&
             <View style={styles.synonymContainer}>
               <Text style={[styles.synonymHeading, { color: colors.secondary}]}>Synonyms</Text>
               <Text style={{width: '100%'}}>{
@@ -84,7 +84,7 @@ export const WordDefinition = ({ entry }: { entry: DictionaryEntry }) => {
           }
 
           {
-            (meaning.antonyms && meaning.antonyms.length) &&
+            (meaning.antonyms && meaning.antonyms.length > 0) &&
             <View style={styles.synonymContainer}>
               <Text style={[styles.synonymHeading, { color: colors.secondary }]}> Antonyms</Text>
               <Text style={{width: '100%'}}>{
@@ -121,7 +121,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
   playButton: {
-    padding: 20,
+    width: 60,
+    height: 60,
     borderRadius: 50,
     flexDirection: "column",
     justifyContent: "center",
