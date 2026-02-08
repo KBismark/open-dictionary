@@ -22,6 +22,7 @@ export const SearchInput = ({
         onSubmitEditing={onSubmit}
         placeholder="Search for a word..."
         placeholderTextColor={colors.secondary}
+        returnKeyType='search'
         style={[styles.input, { color: colors.text }]}
       />
     </View>
@@ -30,16 +31,16 @@ export const SearchInput = ({
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: 10,
-    paddingHorizontal: 16,
+    borderRadius: 24,
+    paddingHorizontal: 20,
     paddingVertical: 3,
-    marginTop: 16,
+    // marginTop: 16,
     marginBottom: 5,
-    marginHorizontal: 16,
+    marginHorizontal: 20,
   },
   input: {
     fontSize: 16,
     fontFamily: "System",
-    height: 40,
+    height: 35,
   },
 });

@@ -5,8 +5,8 @@ const darkTheme = {
     colors: {
       background: "#050505",
       text: "#FFFFFF",
-      primary: "#2FE7A4",
-      lightPrimary: "#153F38",
+      primary: "#09c380",
+      lightPrimary: "#09c38020",
       secondary: "#757575",
       border: "#3A3A3A"
     },
@@ -17,8 +17,8 @@ const darkTheme = {
     colors: {
       background: "#FFFFFF",
       text: "#2D2D2D",
-      primary: "#2FE7A4",
-      lightPrimary:"#D1FBF1",
+      primary: "#09c380",
+      lightPrimary:"#09c38030",
       secondary: "#757575",
       border: "#F4F4F4"
     },

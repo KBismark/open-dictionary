@@ -1,17 +1,15 @@
 {
   "expo": {
-    "name": "Open Dictionary",
-    "slug": "open-dictionary",
+    "name": "OS Dictionary",
+    "slug": "os-dictionary",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "open-dictionary",
+    "scheme": "os-dictionary",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#801a06"
     },
     "ios": {
       "supportsTablet": false
@@ -21,7 +19,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.codigexdev.opendictionary"
+      "package": "com.codigexdev.osdictionary"
     },
     "web": {
       "bundler": "metro",
@@ -40,8 +38,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "4ca5ceee-4b86-49c2-a145-69af7750ed60"
+        "projectId": "32b7a4b4-7a6c-4141-944e-e1da0b6cde72"
       }
-    }
+    },
+    "owner": "kbismark"
   }
 }
